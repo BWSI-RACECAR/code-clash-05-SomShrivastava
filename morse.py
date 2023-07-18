@@ -119,11 +119,10 @@ class Solution:
                     new_message += "  "
                 else:
                     if i < len(message) - 1 and message[i + 1] == " ":
-                        new_message += MORSE_CODE_DICT[message[i]] + " "
+                        new_message += MORSE_CODE_DICT[message[i]]
                     else:
-                        new_message += MORSE_CODE_DICT[message[i]]                        
+                        new_message += MORSE_CODE_DICT[message[i]] + " "               
             return f"`{new_message[0:len(new_message) - 1]}`"
-
 def main():
      str1=input()
      tc1= Solution()
