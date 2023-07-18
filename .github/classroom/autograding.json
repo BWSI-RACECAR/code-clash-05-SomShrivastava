@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 morse.py",
+      "input": "SOS",
+      "output": "... --- ...",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 morse.py",
+      "input": "Hello!",
+      "output": ".... . .-.. .-.. --- -.-.--",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 morse.py",
+      "input": "HUNTER2",
+      "output": ".... ..- -. - . .-. ..---",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 morse.py",
+      "input": "runner-up",
+      "output": ".-. ..- -. -. . .-. -....- ..- .--.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 morse.py",
+      "input": "No.",
+      "output": "-. --- .-.-.-",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "",
+      "run": "python3 morse.py",
+      "input": "Yes?",
+      "output": "-.-- . ... ..--..",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "python3 morse.py",
+      "input": "n/a",
+      "output": "-. -..-. .-",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "python3 morse.py",
+      "input": "123",
+      "output": ".---- ..--- ...-- ",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "python3 morse.py",
+      "input": ".s and -s",
+      "output": ".-.-.- ...  .- -. -..  -....- ...",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "python3 morse.py",
+      "input": "break",
+      "output": "-... .-. . .- -.-",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
