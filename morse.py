@@ -118,8 +118,8 @@ class Solution:
                 if message[i] == " ":
                     new_message += "  "
                 else:
-                    new_message += MORSE_CODE_DICT[message[i]] + " "
-            return new_message
+                    new_message += MORSE_CODE_DICT[message[i]]
+            return new_message.strip()
 
 def main():
      str1=input()
